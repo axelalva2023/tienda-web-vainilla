@@ -80,6 +80,5 @@ Este proyecto fue creado con fines educativos para reforzar conocimientos en:
 👤 **Axel Alva**  
 📅 2026
 
-Si te gustó el proyecto ⭐ ¡no olvides darle una estrella al repositorio!
 
 ---
