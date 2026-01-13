@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>Bogui</h3>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Mi carrito</a></li>
+                <li><h3 id="saludo"></h3></li>
+                <li><h3 id="contador"></h3></li>
+                <li><button id="botonOff">Cerrar sesion</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="boxFondos">
+            <h1 id="titulo"></h1>
+        </section>
+        <section class="nosotros">
+            <div>
+                <h3>Titulo terciario</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed a laboriosam, ipsum commodi officia adipisci, iste assumenda tempore quaerat soluta illum vel temporibus incidunt sapiente officiis, aperiam numquam molestias maxime!</p>
+            </div>
+            <div class="contenedor-imagen">
+                <img src="../img/comida.jpg" alt="">
+                <p class="texto-sobre-imagen">Comida lista. Creditos: Axel Alva</p>
+            </div>
+        </section>
+        <section class="servicios">
+             <div>
+                <h3>Titulo terciario</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed a laboriosam, ipsum commodi officia adipisci, iste assumenda tempore quaerat soluta illum vel temporibus incidunt sapiente officiis, aperiam numquam molestias maxime!</p>
+            </div>
+            <div class="contenedor-imagen">
+                <img src="../img/comida.jpg" alt="">
+                <p class="texto-sobre-imagen">Comida lista. Creditos: Axel Alva</p>
+            </div>
+        </section>
+        <section class="productos">
+            <h2>Productos</h2>
+            <div class="box">
+            <h3>Buscar producto</h3>
+            <input type="text" placeholder="Ingrese nombre" id="campoBuscar">
+            <button type="button" id="botonBuscar">Buscar</button>
+            <div class="contenedor-productos" id="contenedor">
+
+            </div>
+            <a href="./carrito.html">
+                <button>Ver carrito</button>
+            </a>
+            <h3>Agregar producto</h3>
+            <p>Ingrese nombre del producto</p><input type="text" id="campoNombre">
+            <p>Ingrese imagen del producto</p><input type="text" id="campoImagen">
+            <p>Ingrese precio del producto</p><input type="text" id="campoPrecio">
+            <button type="button" id="boton">Agregar</button>
+            </div>
+        </section>
+        <section></section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Bogui</h3>
+            <p>Todos los derechos reservados &copy;2026</p>
+        </div>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Mi carrito</a></li>
+        </ul>
+    </footer>
+
+    <script src="../js/tienda.js"></script>
+</body>
+</html>

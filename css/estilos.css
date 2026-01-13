@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.login{
+    background-color: #444444;
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.botonVerde{
+    background-color: green;
+}
+.botonRojo{
+    background-color: red;
+}
+.registro{
+    background-color: #444444;
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero{
+    height: calc(100vh - 84.06px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li{
+    margin: 10px;
+}
+
+.productos{
+       background-color: #444444;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros{
+    background-color: #444444;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.servicios{
+    background-color: #444444;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.servicios .contenedor-imagen{
+    position: relative;
+    width: 500px; /* ?? Axel Igual que el otro div */
+    max-width: 500px; /* Límite opcional en desktop */
+     /* Centrado */
+}
+.servicios .contenedor-imagen .texto-sobre-imagen{
+    position: absolute;
+    bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 14px;
+      text-align: center;
+}
+
+.nosotros .contenedor-imagen{
+    position: relative;
+    width: 500px; /* ?? Axel Igual que el otro div */
+    max-width: 500px; /* Límite opcional en desktop */
+     /* Centrado */
+}
+.nosotros .contenedor-imagen .texto-sobre-imagen{
+    position: absolute;
+    bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 14px;
+      text-align: center;
+}
+
+.nosotros div{
+    width: 50%;
+}
+
+.servicios div{
+    width: 50%;
+}
+
+.nosotros img{
+    width: 100%; /* ??Axel Para que se ajuste al ancho del contenedor */
+    height: auto;
+    display: block;
+
+}
+
+.servicios img{
+    width: 100%; /* ??Axel Para que se ajuste al ancho del contenedor */
+    height: auto;
+    display: block;
+}
+
+/* Estilos para la seccion de productos */
+
+.productos .contenedor-productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+ flex-wrap: wrap;
+}
+
+.productos .contenedor-productos div img{
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.productos .contenedor-productos div{
+    border: 2px solid red;
+    width: 320px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+.productos .contenedor-productos div a{
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+.productos .contenedor-productos div p{
+    margin-bottom: 12px;
+    
+}
+
+.productos h2{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+}
+
+footer{
+    background-color: #0D0D0D;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div{
+    color: #fff;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
