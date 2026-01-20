@@ -22,7 +22,7 @@ function renderCart() {
     cart.map((el, index) =>{
         const {nombre, precio, img, cantidad} = el
         contenedor.innerHTML += `<div>
-        <img src="${img}" alt="foto-producto">
+        <img src="${img}" alt="foto-producto" class="img-carrito">
         <h3>${nombre}</h3>
         <p>${precio} X (${cantidad})</p>
         <button onclick="sumarCantidad(${index})">+</button>
