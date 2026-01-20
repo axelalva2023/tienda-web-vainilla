@@ -26,6 +26,9 @@ const boton = document.getElementById("boton")
 const botonBuscar = document.getElementById("botonBuscar")
 const contador = document.getElementById("contador")
 const botonOff = document.getElementById("botonOff")
+const botonAbrir = document.getElementById("botonAbrir")
+const botonCerrar = document.getElementById("botonCerrar")
+const nav = document.querySelector(".nav")
 
 setInterval(()=>{
     if (i < frase.length) {
@@ -143,6 +146,14 @@ botonBuscar.addEventListener("click", (e) =>{
 botonOff.addEventListener("click", (e) =>{
     e.preventDefault()
     loginOff()
+})
+
+botonAbrir.addEventListener("click", ()=>{
+    nav.classList.add("visible")
+})
+
+botonCerrar.addEventListener("click", ()=>{
+    nav.classList.remove("visible")
 })
 
 inputBuscar.addEventListener("input", ()=>{

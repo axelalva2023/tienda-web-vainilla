@@ -11,6 +11,9 @@ const contador = document.getElementById("contador")
 const botonClear = document.getElementById("botonClear")
 const saludo = document.getElementById("saludo")
 const botonOff = document.getElementById("botonOff")
+const botonAbrir = document.getElementById("botonAbrir")
+const botonCerrar = document.getElementById("botonCerrar")
+const nav = document.querySelector(".nav")
 
 //Funciones
 
@@ -105,6 +108,15 @@ botonOff.addEventListener("click", (e) =>{
     e.preventDefault()
     loginOff()
 })
+
+botonAbrir.addEventListener("click", ()=>{
+    nav.classList.add("visible")
+})
+
+botonCerrar.addEventListener("click", ()=>{
+    nav.classList.remove("visible")
+})
+
 
 renderCart()
 renderTotal()
