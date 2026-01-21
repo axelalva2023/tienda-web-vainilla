@@ -297,5 +297,28 @@ footer ul li a{
         align-items: end;
     }
 
-   
+    .nosotros{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .nosotros > div, .contenedor-imagen{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+     .servicios{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    .servicios > div, .contenedor-imagen{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
 }
